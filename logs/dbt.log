@@ -1,0 +1,26 @@
+
+
+============================== 2022-04-14 07:57:22.367844 | 502ab5be-dea8-4a64-8912-1765e9ce2e7d ==============================
+07:57:22.367844 [info ] [MainThread]: Running with dbt=1.0.4
+07:57:22.368138 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/macbookair/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+07:57:22.368255 [debug] [MainThread]: Tracking: tracking
+07:57:22.450577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff188819670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff16947ec70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff16945a4c0>]}
+07:58:00.873493 [debug] [MainThread]: Starter project path: /Users/macbookair/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+07:58:06.800241 [info ] [MainThread]: No sample profile found for sqlserver.
+07:58:06.800509 [info ] [MainThread]: 
+Your new dbt project "DBT_IMBA" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+07:58:06.800722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff16946f8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff16945a4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1888196a0>]}
