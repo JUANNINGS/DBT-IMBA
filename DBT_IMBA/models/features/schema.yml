@@ -4,7 +4,7 @@ models:
   - name: order_products_train2
     columns:
       - name: order_id
-        description: "The primary key for this table"
+        description: "The primary key for order products"
         tests:
           - not_null
   
@@ -25,7 +25,7 @@ models:
   - name: up_features
     columns:
       - name: user_id
-        description: "The primary key for this table"
+        description: "The primary key for up features"
         tests:
           - not_null
       - name: product_id
